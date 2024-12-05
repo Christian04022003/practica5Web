@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isSpeeding(speed) {
+            return speed > 120;
+        }
+        
+        let speed = Number(prompt("Ingrese la velocidad del vehículo:"));
+        
+        if (isSpeeding(speed)) {
+            alert(`La velocidad de ${speed} km/h excede el límite.`);
+        } else {
+            alert(`La velocidad de ${speed} km/h está dentro del límite permitido.`);
+        }
+        
+
+    </script>
+</body>
+</html>

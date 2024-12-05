@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function isGoodMusic(artist) {
+            const favoriteArtists = ["Bad bunny", "Mora", "Nsqk", "Rauw", "The Neighbourhood"];
+            return favoriteArtists.includes(artist);
+        }
+        
+        let artist = prompt("Ingrese el nombre de un artista:");
+        
+        if (isGoodMusic(artist)) {
+            alert(`Sí, ${artist} es uno de tus artistas favoritos.`);
+        } else {
+            alert(`No, ${artist} no está en tu lista de artistas favoritos.`);
+        }
+        
+    </script>
+</body>
+</html>

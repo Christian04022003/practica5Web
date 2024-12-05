@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function isTeenager(age) {
+            return age >= 13 && age <= 18;
+        }
+        
+        let age = Number(prompt("Ingrese la edad:"));
+        
+        if (isTeenager(age)) {
+            alert(`Sí, la persona de ${age} años es un adolescente.`);
+        } else {
+            alert(`No, la persona de ${age} años no es un adolescente.`);
+        }
+        
+    </script>
+</body>
+</html>
